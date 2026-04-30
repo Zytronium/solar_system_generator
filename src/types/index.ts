@@ -1,19 +1,19 @@
 export type PlanetClass =
     | 'Rocky'
-    | 'GasGiant'
-    | 'IceGiant'
+    | 'Gas Giant'
+    | 'Ice Giant'
     | 'Oceanic'
     | 'Chthonian'
-    | 'SubNeptune'
+    | 'Sub-Neptune'
     | 'Mechanical';
 
 export type PlanetTrait =
     | 'Dwarf' | 'Super'
     | 'Volcanic' | 'Ferrian' | 'Glacial' | 'Cratered' | 'Tectonic' | 'Crystalline' | 'Cavernous'
-    | 'Rogue' | 'Eccentric' | 'TidallyLocked' | 'Trojan'
+    | 'Rogue' | 'Eccentric' | 'Tidally Locked' | 'Trojan'
     | 'Venusian' | 'Toxic' | 'Irradiated' | 'Tempestuous' | 'Thin'
     | 'Desert' | 'Habitable'
-    | 'Biotic' | 'Verdant' | 'Sapient' | 'AdvancedSapient'
+    | 'Biotic' | 'Verdant' | 'Sapient' | 'Advanced Sapient'
     | 'Magnetar' | 'Demagnetized'
     | 'Psionic' | 'Liminal' | 'Chronal' | 'Living' | 'Inverted' | 'Ghostly'
     | 'Xenolithic' | 'Prismatic' | 'Resonant' | 'Negated' | 'Acoustic' | 'Artificial';
