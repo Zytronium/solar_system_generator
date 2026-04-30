@@ -2,6 +2,7 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { Exo_2, Space_Mono } from 'next/font/google';
+import {PlanetClass, PlanetTrait} from "@/types";
 
 const exo = Exo_2({
     subsets: ['latin'],
@@ -27,13 +28,13 @@ interface Planet {
     name: string;
     class: PlanetClass;
     traits: PlanetTrait[];
-    mass: number;             // u32 → number, in Earth masses
-    density: number;          // u32 → number, in kg/m³
-    diameter: number;         // u32 → number, in km
-    rotational_speed: number; // u32 → number, in km/h
-    orbital_radius: number;   // in AU — used to position planet in orrery
-    orbital_period: number;   // in Earth days
-    color: string;            // hex — base display color for this planet
+    mass: number;
+    density: number;
+    diameter: number;
+    rotational_speed: number;
+    orbital_radius: number; // * TODO: check if this is AI-halucinated or added for the front-end
+    orbital_period: number; // * TODO: see above
+    color: string;          // * TODO: see above
 }
 
 /**
