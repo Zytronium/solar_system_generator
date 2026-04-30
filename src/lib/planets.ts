@@ -259,7 +259,7 @@ function generateTraits(planetClass: PlanetClass): FullTrait[] {
         { name: 'Artificial', valid: true },
     ];
     for (const exotic of exotics) {
-        if (exotic.valid && roll(exotic.name !== 'Artificial' ? 0.00125 : 0.005)) add(exotic.name);
+        if (exotic.valid && roll(0.00125)) add(exotic.name);
     }
 
     return traits;
