@@ -4,7 +4,8 @@ export type PlanetClass =
     | 'IceGiant'
     | 'Oceanic'
     | 'Chthonian'
-    | 'SubNeptune';
+    | 'SubNeptune'
+    | 'Mechanical';
 
 export type PlanetTrait =
     | 'Dwarf' | 'Super'
@@ -15,7 +16,7 @@ export type PlanetTrait =
     | 'Biotic' | 'Verdant' | 'Sapient' | 'AdvancedSapient'
     | 'Magnetar' | 'Demagnetized'
     | 'Psionic' | 'Liminal' | 'Chronal' | 'Living' | 'Inverted' | 'Ghostly'
-    | 'Xenolithic' | 'Prismatic' | 'Resonant' | 'Negated' | 'Acoustic';
+    | 'Xenolithic' | 'Prismatic' | 'Resonant' | 'Negated' | 'Acoustic' | 'Artificial';
 
 export type Planet = {
     id: string,
