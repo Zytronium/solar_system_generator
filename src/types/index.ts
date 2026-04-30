@@ -12,7 +12,7 @@ export type PlanetTrait =
     | 'Volcanic' | 'Ferrian' | 'Glacial' | 'Cratered' | 'Tectonic' | 'Crystalline' | 'Cavernous'
     | 'Rogue' | 'Eccentric' | 'Tidally Locked' | 'Trojan'
     | 'Venusian' | 'Toxic' | 'Irradiated' | 'Tempestuous' | 'Thin'
-    | 'Desert' | 'Habitable'
+    | 'Desert' | 'Habitable' | 'Terraformed'
     | 'Biotic' | 'Verdant' | 'Sapient' | 'Advanced Sapient'
     | 'Magnetar' | 'Demagnetized'
     | 'Psionic' | 'Liminal' | 'Chronal' | 'Living' | 'Inverted' | 'Ghostly'
